@@ -39,7 +39,7 @@ Each Pong session will generate a unique session id and can be selected from the
 
 ## Analysis
 In the initial Pong Dashboard there are a few interesting points to be aware of:
-1. Learning breakeven point - when Hits = Misses - The time to reach this point can be interpretated as the initial learning rate
+1. Learning breakeven point - when Hits = Misses - The time to reach this point can be interpretated as the initial learning rate. A few seconds at the start should be allowed to overcome any initial 'lucky' bias.
 2. Convergence to Hit/Miss ratio - This can be interpreted as a capability level of the current version
-3. Miss distance - this is a form of reliability metric in that the lower the miss distance (Total) the better the long term reliability
+3. Miss distance - this is a form of reliability metric in that the lower the miss distance (Total) the better the long term reliability.
 
