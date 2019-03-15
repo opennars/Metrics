@@ -38,7 +38,7 @@ After a few seconds the sessionID and version fields (top left) will be populate
 Each Pong session will generate a unique session id and can be selected from the sessionId drop down. Different Open-NARS versions can be compared by running the respective versions and selecting the relevant version number in the drop down.
 
 ## Analysis
-In the initial Pong Dashboard there are a few interesting examples to be aware of:
+In the initial Pong Dashboard there are a few interesting points to be aware of:
 1. Learning breakeven point - when Hits = Misses - The time to reach this point can be interpretated as the initial learning rate
 2. Convergence to Hit/Miss ratio - This can be interpreted as a capability level of the current version
 3. Miss distance - this is a form of reliability metric in that the lower the miss distance (Total) the better the long term reliability
