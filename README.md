@@ -33,4 +33,4 @@ Now run Open-NARS v3.0.2 LAB and select Pong application from the launcher menu 
 
 After a few seconds the sessionID and version fields (top left) will be populated and data will start to appear on the graphs.
 
-Each Pong session will generate a unique id and can be selected from teh sessionId drop down. Different Open-NARS versions can be compared by running the respective versions and selecting the relevant version number in the drop down.
+Each Pong session will generate a unique session id and can be selected from the sessionId drop down. Different Open-NARS versions can be compared by running the respective versions and selecting the relevant version number in the drop down.
