@@ -17,6 +17,7 @@ docker network connect metric-net grafana
 docker network inspect metric-net
 ```
 Configure Grafana data source
+```
 Set the Grafana datasource to the virtual IP address from the inspect command above, using port 80:
 example: http://172.19.0.2:80 
 
@@ -26,7 +27,7 @@ Import dashboard
 Dowhload the Pong dashboard json file from teh repository
 In Grafana navigate to 'import dashboard' and select 'upload .json file' and select the download .json file.
 Select the Pong dashboard on the Home page.
-
+```
 ## Run
 Now run Open-NARS v3.0.2 LAB and select Pong application from launcher menu to start collecting metrics.
 
