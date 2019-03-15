@@ -1,7 +1,7 @@
 # Metrics
 Time-Series repository and metric dashboards for measuring system performance
 
-<img src="https://github.com/opennars/Metrics/blob/master/Pong%20Metrics.png">
+<img src="https://github.com/opennars/Metrics/blob/master/Img/Pong%20Metrics.png">
 
 ## Config
 Install docker containers
