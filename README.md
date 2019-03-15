@@ -24,7 +24,7 @@ example: http://172.19.0.2:80
 In your browser enter http://localhost:3000
 
 Import dashboard
-Download the Pong dashboard .json file from the Github repository
+Download the Pong dashboard .json file from the Github repository (Dashboards)
 In Grafana navigate to 'import dashboard' and select 'upload .json file' then select the download .json file.
 Select the Pong dashboard on the Home page.
 ```
