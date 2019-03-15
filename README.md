@@ -63,3 +63,5 @@ In the initial Pong Dashboard there are a few interesting points to be aware of:
 2. Convergence to Hit/Miss ratio - This can be interpreted as a capability level of the current version
 3. Miss distance - this is a form of reliability metric in that the lower the miss distance (Total) the better the long term reliability.
 
+For performance comparison for different OpenNARS releases se: https://github.com/opennars/Metrics/tree/master/OpenNARS%20version%20performance%20graphs
+
