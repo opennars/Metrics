@@ -42,19 +42,20 @@ Now run Open-NARS v3.0.2 LAB and select Pong application from the launcher menu 
 After a few seconds the sessionID and version fields (top left) will be populated and data will start to appear on the graphs.
 
 Each Pong session will generate a unique session id and can be selected from the sessionId drop down. Different Open-NARS versions can be compared by running the respective versions and selecting the relevant version number in the drop down.
-```
+
 At the end of your metric sesssion the docker containers can be stopped
+```
 docker stop grafana
 docker stop graphite
-
+```
 and restarted on subsequent sessions
+```
 docker restart graphite
 docker restart grafana
-
+```
 Your data will be persisted between sessions
 
 For detailed instructions on using Grafana see: https://grafana.com/
-```
 
 ## Analysis
 In the initial Pong Dashboard there are a few interesting points to be aware of:
