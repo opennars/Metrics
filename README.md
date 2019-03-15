@@ -32,7 +32,7 @@ Select add new data source and choose Graphite.
 Set the URL to the virtual IP address from the inspect command above, using port 80:
 example: http://172.18.0.2:80 
 
-Click Save & Test - You should see Data source is working. If not check the above steps.
+Click Save & Test - You should see 'Data source is working.' If not check the above steps.
 
 Return to the main menu and select Import dashboard
 Download the Pong dashboard .json file from the Github repository (Dashboards)
