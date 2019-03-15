@@ -29,4 +29,4 @@ Select the Pong dashboard on the Home page.
 ## Run
 Now run Open-NARS v3.0.2 LAB and select Pong application from launcher menu to start collecting metrics.
 
-After a few seconds the sessionID and version fields (top left) will be populated and data will start to appearon the graphs.
+After a few seconds the sessionID and version fields (top left) will be populated and data will start to appear on the graphs.
