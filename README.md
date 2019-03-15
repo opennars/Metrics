@@ -43,7 +43,7 @@ After a few seconds the sessionID and version fields (top left) will be populate
 
 Each Pong session will generate a unique session id and can be selected from the sessionId drop down. Different Open-NARS versions can be compared by running the respective versions and selecting the relevant version number in the drop down.
 ```
-At the end of your metric sesssion the docker contianers can be stopped
+At the end of your metric sesssion the docker containers can be stopped
 docker stop grafana
 docker stop graphite
 
