@@ -9,8 +9,11 @@ docker run -d --name graphite -p 80:80 -p 2003-2004:2003-2004 -p 2023-2024:2023-
 docker run -d --name=grafana -p 3000:3000 grafana/grafana
 
 Create a bridge network for docker containers
+
 docker network create metric-net
+
 docker network connect metric-net graphite
+
 docker network connect metric-net grafana
 
 docker network inspect metric-net
