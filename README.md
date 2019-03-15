@@ -22,6 +22,8 @@ Configure Grafana data source
 ```
 In your browser enter http://localhost:3000
 
+Default user/password is: admin/admin
+
 Set the Grafana datasource to the virtual IP address from the inspect command above, using port 80:
 example: http://172.19.0.2:80 
 
