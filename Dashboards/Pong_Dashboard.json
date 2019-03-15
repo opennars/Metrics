@@ -18,8 +18,8 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 1,
-  "iteration": 1552644391572,
+  "id": 2,
+  "iteration": 1552661249842,
   "links": [],
   "panels": [
     {
@@ -768,6 +768,7 @@
       }
     }
   ],
+  "refresh": "5s",
   "schemaVersion": 18,
   "style": "dark",
   "tags": [],
@@ -776,18 +777,18 @@
       {
         "allValue": null,
         "current": {
-          "text": "1552644890311",
-          "value": "1552644890311"
+          "text": "1552661198184",
+          "value": "1552661198184"
         },
         "datasource": "Graphite",
-        "definition": "stats_counts.Open-NARS.v3_0_2.*",
+        "definition": "stats_counts.Open-NARS.$Version.*",
         "hide": 0,
         "includeAll": false,
         "label": "SessionID",
         "multi": false,
         "name": "SessionID",
         "options": [],
-        "query": "stats_counts.Open-NARS.v3_0_2.*",
+        "query": "stats_counts.Open-NARS.$Version.*",
         "refresh": 2,
         "regex": "",
         "skipUrlSync": false,
@@ -801,8 +802,8 @@
       {
         "allValue": null,
         "current": {
-          "text": "v3_0_2",
-          "value": "v3_0_2"
+          "text": "v3_0_0",
+          "value": "v3_0_0"
         },
         "datasource": "Graphite",
         "definition": "stats_counts.Open-NARS.*",
@@ -826,7 +827,7 @@
     ]
   },
   "time": {
-    "from": "2019-03-15T10:15:00.000Z",
+    "from": "now-15m",
     "to": "now"
   },
   "timepicker": {
@@ -858,5 +859,5 @@
   "timezone": "",
   "title": "Pong Dashboard",
   "uid": "Odci0Qjik",
-  "version": 1
+  "version": 2
 }
