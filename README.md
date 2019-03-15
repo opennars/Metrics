@@ -20,10 +20,10 @@ docker network inspect metric-net
 ```
 Configure Grafana data source
 ```
+In your browser enter http://localhost:3000
+
 Set the Grafana datasource to the virtual IP address from the inspect command above, using port 80:
 example: http://172.19.0.2:80 
-
-In your browser enter http://localhost:3000
 
 Import dashboard
 Download the Pong dashboard .json file from the Github repository (Dashboards)
