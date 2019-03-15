@@ -52,6 +52,8 @@ docker restart graphite
 docker restart grafana
 
 Your data will be persisted between sessions
+
+For detailed instructions on using Grafana see: https://grafana.com/
 ```
 
 ## Analysis
