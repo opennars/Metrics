@@ -28,7 +28,7 @@ Default user/password is: admin/admin
 
 Select add new data source and choose Graphite.
 
-Set the URL to the virtual IP address from the inspect command above, using port 80:
+Set the URL to the virtual IP address )for Graphite) from the inspect command above, using port 80:
 example: http://172.18.0.2:80 
 
 Click Save & Test - You should see 'Data source is working.' If not check the above steps.
