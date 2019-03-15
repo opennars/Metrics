@@ -31,7 +31,7 @@ example: http://172.18.0.2:80
 
 Click Save & Test - You should see Data source is working. If not check the above steps.
 
-Import dashboard
+Return to the main menu and select Import dashboard
 Download the Pong dashboard .json file from the Github repository (Dashboards)
 In Grafana navigate to 'import dashboard' and select 'upload .json file' then select the download .json file.
 Select the Pong dashboard on the Home page.
