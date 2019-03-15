@@ -24,11 +24,13 @@ example: http://172.19.0.2:80
 In your browser enter http://localhost:3000
 
 Import dashboard
-Dowhload the Pong dashboard json file from teh repository
-In Grafana navigate to 'import dashboard' and select 'upload .json file' and select the download .json file.
+Download the Pong dashboard .json file from the Github repository
+In Grafana navigate to 'import dashboard' and select 'upload .json file' then select the download .json file.
 Select the Pong dashboard on the Home page.
 ```
 ## Run
-Now run Open-NARS v3.0.2 LAB and select Pong application from launcher menu to start collecting metrics.
+Now run Open-NARS v3.0.2 LAB and select Pong application from the launcher menu to start collecting metrics.
 
 After a few seconds the sessionID and version fields (top left) will be populated and data will start to appear on the graphs.
+
+Each Pong session will generate a unique id and can be selected from teh sessionId drop down. Different Open-NARS versions can be compared by running the respective versions and selecting the relevant version number in the drop down.
