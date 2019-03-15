@@ -18,8 +18,8 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 2,
-  "iteration": 1552595959955,
+  "id": 1,
+  "iteration": 1552644391572,
   "links": [],
   "panels": [
     {
@@ -188,7 +188,7 @@
           "target": "alias(integral(stats_counts.Open-NARS.$Version.$SessionID.hit), 'hits')"
         },
         {
-          "refCount": -1,
+          "refCount": 1,
           "refId": "D",
           "target": "alias(divideSeries(#B, #A), 'Ratio')",
           "targetFull": "alias(divideSeries(alias(integral(stats_counts.Open-NARS.$Version.$SessionID.hit), 'hits'), alias(integral(stats_counts.Open-NARS.$Version.$SessionID.miss), 'misses')), 'Ratio')"
@@ -196,8 +196,9 @@
         {
           "refCount": 0,
           "refId": "C",
-          "target": "alias(aggregateLine(#D, 'median', false), 'Average')",
-          "targetFull": "alias(aggregateLine(alias(divideSeries(alias(integral(stats_counts.Open-NARS.$Version.$SessionID.hit), 'hits'), alias(integral(stats_counts.Open-NARS.$Version.$SessionID.miss), 'misses')), 'Ratio'), 'median', false), 'Average')"
+          "target": "alias(aggregateLine(#D, 'average', 'Average'), 'Average')",
+          "targetFull": "alias(aggregateLine(alias(divideSeries(alias(integral(stats_counts.Open-NARS.$Version.$SessionID.hit), 'hits'), alias(integral(stats_counts.Open-NARS.$Version.$SessionID.miss), 'misses')), 'Ratio'), 'average', 'Average'), 'Average')",
+          "textEditor": true
         }
       ],
       "thresholds": [],
@@ -365,7 +366,14 @@
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
-      "seriesOverrides": [],
+      "seriesOverrides": [
+        {
+          "alias": "Moving Average",
+          "bars": false,
+          "lines": true,
+          "yaxis": 2
+        }
+      ],
       "stack": false,
       "steppedLine": false,
       "targets": [
@@ -373,6 +381,11 @@
           "refCount": 0,
           "refId": "A",
           "target": "alias(stats.Open-NARS.$Version.$SessionID.missDistance, 'Miss-Distance')"
+        },
+        {
+          "refCount": 0,
+          "refId": "B",
+          "target": "alias(movingAverage(stats.Open-NARS.$Version.$SessionID.missDistance, '5min'), 'Moving Average')"
         }
       ],
       "thresholds": [],
@@ -405,7 +418,7 @@
         {
           "format": "short",
           "label": null,
-          "logBase": 1,
+          "logBase": 2,
           "max": null,
           "min": null,
           "show": true
@@ -755,7 +768,6 @@
       }
     }
   ],
-  "refresh": "5s",
   "schemaVersion": 18,
   "style": "dark",
   "tags": [],
@@ -764,8 +776,8 @@
       {
         "allValue": null,
         "current": {
-          "text": "1552585271901",
-          "value": "1552585271901"
+          "text": "1552644890311",
+          "value": "1552644890311"
         },
         "datasource": "Graphite",
         "definition": "stats_counts.Open-NARS.v3_0_2.*",
@@ -814,7 +826,7 @@
     ]
   },
   "time": {
-    "from": "now-30m",
+    "from": "2019-03-15T10:15:00.000Z",
     "to": "now"
   },
   "timepicker": {
@@ -846,5 +858,5 @@
   "timezone": "",
   "title": "Pong Dashboard",
   "uid": "Odci0Qjik",
-  "version": 33
+  "version": 1
 }
