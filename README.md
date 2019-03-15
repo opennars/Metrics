@@ -5,14 +5,15 @@ Time-Series repository and metric dashboards for measuring system performance
 
 ## Config
 Install docker containers
-```
+
 Install docker on your platform of choice (the following config has been tested on Windows 10)
 Once installed:
+```
 docker run -d --name graphite -p 80:80 -p 2003-2004:2003-2004 -p 2023-2024:2023-2024 -p 8125:8125/udp -p 8126:8126 graphiteapp/graphite-statsd
 docker run -d --name=grafana -p 3000:3000 grafana/grafana
-
+```
 Create a bridge network for docker containers
----------------------------------------------
+```
 docker network create metric-net
 docker network connect metric-net graphite
 docker network connect metric-net grafana
