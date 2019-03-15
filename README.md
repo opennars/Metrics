@@ -22,7 +22,7 @@ docker network inspect metric-net
 ```
 Configure Grafana data source
 
-In your browser enter 
+In your browser enter: 
 ```
 http://localhost:3000
 ```
