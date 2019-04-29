@@ -1,5 +1,5 @@
 # Metrics
-Time-Series repository and metric dashboards for measuring system performance
+Time-Series repository and metric dashboards for measuring system performance. Current use cases include Crossing (Smart City Simulator) and Pong.
 
 <img src="https://github.com/opennars/Metrics/blob/master/Img/Dashboard-snapshot-v3.0.2.png">
 <img src="https://github.com/opennars/Metrics/blob/master/Img/Pong%20Metrics.png">
