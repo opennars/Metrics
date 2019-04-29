@@ -1,7 +1,7 @@
 # Metrics
 Time-Series repository and metric dashboards for measuring system performance
 
-<img src="https://github.com/opennars/Metrics/blob/master/Img/Dashboard-snapshot.png">
+<img src="https://github.com/opennars/Metrics/blob/master/Img/Dashboard-snapshot-v3.0.2.png">
 <img src="https://github.com/opennars/Metrics/blob/master/Img/OpenNARS_Metrics.png">
 
 ## Config
